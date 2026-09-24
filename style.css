@@ -1,0 +1,27 @@
+th,
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+th {
+    background-color: #B0AFEB;
+    color: white;
+}
+
+td {
+    background-color: black;
+    color: white;
+}
+
+tr td:first-child {
+    background-color: #7371DC
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 70px;
+}
+table{
+    border-spacing: 0;
+}
